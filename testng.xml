@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/stl/Desktop/New folder/practiceAssignment">
+    <listeners>
+        <listener class-name="TestComponent.ReportListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/stl/Desktop/NewFolder/practiceAssignment">
         <classes>
             <class name="stl.PracticeTest">
                 <methods>
